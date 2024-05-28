@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+* {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #21ff04, #073b00);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+canvas {
+  border: solid 3px rgb(238, 255, 0);
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+.canvas {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.splash {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.win {
+  margin-top: 150px;
+  text-align: center;
+}
+
+p,
+section {
+  font-family: "Press Start 2P", cursive;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 2em;
+  color: #21ff04;
+  background-color: black;
+  border: 0;
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+}
+
+#submit {
+  font-family: "Press Start 2P", cursive;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #21ff04;
+  background-color: #073b00;
+  border: 0;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px #073b00;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.header {
+  position: relative;
+  bottom: -30px;
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+input {
+  width: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 15px;
+}
